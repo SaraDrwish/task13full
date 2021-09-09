@@ -1,0 +1,140 @@
+* , body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.first_section{
+    /* background-image: url(http://www.engage.veented.com/bakery/wp-content/uploads/sites/27/2017/04/drew-coffman-1872.jpg); */
+    width:100%;
+    height: 900px;
+    object-fit:contain;
+    background-color: antiquewhite;
+    background-image: url(./img/drew-coffman-1872.jpg);
+
+}
+
+.box{
+    width: 100%;
+    height: 800px;
+     background-position: center center; opacity: 1;
+}
+.noqta{
+    width: 33px;
+    height: 60px;
+    border-radius: 22px;
+     border: 2px solid white;   
+    -webkit-border-radius: 22px;
+    -moz-border-radius: 22px;
+    -ms-border-radius: 22px;
+    -o-border-radius: 22px;
+    position: relative;
+    top: 77%;
+    left: 50%;
+
+}
+
+@keyframes circ{
+    0%{ top:20% ;background-color: rgb(252, 246, 246);}
+
+    100%{  top:80% ; background-color: rgba(250, 250, 250, 0);}
+}
+
+.moving_circ{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 0, 0);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 38%;
+    animation-name: circ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    -webkit-transition:mov ;
+    -moz-transition:mov ;
+    -ms-transition:mov ;
+    -o-transition:mov ;
+}
+
+.Who_we{
+    background-color: brown;
+    width: 100%;
+    height: 600px;
+}
+
+.Who_we .img1 {
+float: left;
+object-fit:scale-down;
+height: 500px;
+width: 44%;
+margin: 24px;
+}
+
+.Who_we .text1{
+    float: left;
+    width: 40%;
+    margin-top: 10%;
+
+}
+
+
+.Who_we .text1 h2{
+margin-top: 11px;
+margin-bottom: 11px;
+}
+
+.Who_we .text1 p {
+
+}
+.Who_we .text1 li{
+    margin-top: 5%;
+    list-style: none;
+}
+
+.Our_location{
+    background-color: burlywood;
+    width: 100%;
+    height: 500px;
+}
+
+.Our_location .text2 {
+width: 40%;
+/* margin: 33px ; */
+background-color: black;
+width: 40%;
+
+}
+
+
+.Our_location img {
+    width: 40%;
+    background-image: url(./img/full-2-800x640.jpg);
+}
+
+.Baking{
+    background-color: cadetblue;
+    width: 100%;
+    height: 500px;
+}
+
+
+.Contact{
+    background-color: coral;
+    height: 600px;
+}
+
+.footer{
+    background-color: gray;
+    height: 400px;
+
+}
+
+.last_footer{
+    background-color: black;
+    height: 300px;
+}
